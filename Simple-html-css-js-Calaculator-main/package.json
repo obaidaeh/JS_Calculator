@@ -1,0 +1,19 @@
+{
+  "name": "calculator",
+  "version": "1.0.1",
+  "description": "Simple Calculator",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamDeepanshu9/Simple-html-css-js-Calaculator.git"
+  },
+  "author": "Deepanshu Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamDeepanshu9/Simple-html-css-js-Calaculator/issues"
+  },
+  "homepage": "https://github.com/iamDeepanshu9/Simple-html-css-js-Calaculator#readme"
+}

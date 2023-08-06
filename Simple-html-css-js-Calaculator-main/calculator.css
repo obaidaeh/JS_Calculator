@@ -1,0 +1,100 @@
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    background: #12c2e9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    display:flex; 
+    flex-direction:column; 
+    align-items: center;
+    justify-content:center;
+    min-height:100vh;
+
+}
+.calc{
+    width: 400px;
+    background: #8E2DE2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 12px;
+    color: white;
+}
+
+.screen{
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: right;
+    padding: 20px 5px;
+    max-width: 400px;
+    /* overflow: scroll; */
+}
+
+.calc-button{
+background: #ff7e5f;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #feb47b, #ff7e5f);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #feb47b, #ff7e5f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: black;
+    height: 100px;
+    width: 24.5%;
+    border: none;
+    border-radius: 0;
+    font-size: 40px;
+    cursor: pointer;
+}
+.calc-button:hover{
+    
+background: #ff7e5f;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #fcc69d, #faa590);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #fccda9, #fc9c84); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.calc-button:active{
+    
+background: #ff7e5f;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f5a161, #f96b48);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f99b53, #ff6b46); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.calc-button:last-child{
+    background: #CAC531;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F3F9A7, #CAC531);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F3F9A7, #CAC531); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    color: black;
+}
+
+.calc-button:last-child:hover{
+    background: #CAC531;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f1f4c8, #cdca77);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f1f4c8, #cdca77); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+.calc-button:last-child:active{
+    background: #CAC531;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f0f789, #d3cd10);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f0f789, #d3cd10); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   
+}
+
+.double{
+    width: 49.7%;
+}
+.triple{
+    width: 74.8%;
+    border-bottom-left-radius:12px ;
+}
+.equals2{
+    border-bottom-right-radius:12px ;
+}
+
+.calc-row{
+    display: flex;
+    align-content: stretch;
+    justify-content: space-between;
+    margin-bottom: 0.5%;
+}
